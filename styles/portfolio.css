@@ -58,6 +58,7 @@ nav a{
     max-width: 500px;
 }
 .profile-pic{
+    margin-top:44px;
     width: 500px; 
 }
 .banner-greeting{
@@ -81,7 +82,10 @@ nav a{
 /* Main section Styles */
 main{
     max-width: 1130px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+main section{
+    margin-top: 130px;
 }
 /* About */
 .about{
@@ -111,4 +115,24 @@ main{
 }
 #what-i-do-description{
     padding: 30px 150 px;
+}
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+.skiil{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+}
+
+/* Summary of Resume */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
